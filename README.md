@@ -4,6 +4,13 @@
 *   Norris Chen
 *   Joyce Wang
 
+## Libraries
+* Pandas
+* Scikit-learn
+* Seaborn
+* Matplotlib
+* NumPy
+
 ## Motivation
 
 The United States has one of the highest rates of road accidents in the world, with over 40,000 fatalities and millions of injuries each year. These accidents have a devastating impact on individuals, families, and communities, and they also have a significant economic cost, with billions of dollars in medical expenses and lost productivity.
@@ -36,7 +43,7 @@ Overall, while there are some minimal insights from our EDA portion, it seems as
 
 Taking a further look at the correlation heatmap further demonstrates that there isn’t one specific feature that relates to severity level of the accidents. The features that show a strong correlation in our heatmap are features that are inherently related to one another such as longitude and latitude, traffic signal and crossing, and height and pressure. Thus, while we were able to find some relationships between our features, we weren’t able to find any clear relationship between how a feature may impact the severity of accidents. 
 
-## Modeling
+### Modeling
 From the modeling data, we could see that there are stark improvements in the modeling that we did. From the beginning, we had a dummy classifier that had an accuracy score of 0.25, which makes sense because the labels in the target feature is evenly divided up by 4. By doing two iterations with different number of data points and different parameters, we came to the conclusion below:
 
 *   Logistic Regression: The first result of logistic regression returned an accuracy score of 0.44 and a f1 score of 0.43. This is a bit better than just randomly guessing, but its still severely underfitted. To improve our score, we used more data points in the second iteration and also 6 new categorical features that added to the complexity of the model. We can see an improvement in the second iteration where the accuracy score is 0.48 and the f1 score is also 0.48. 
@@ -47,7 +54,7 @@ From the modeling data, we could see that there are stark improvements in the mo
 
 In conclusion, the decision tree model presented in our project best models the US Road Accidents Dataframe, with a training accuracy of 0.66 and f1 score of 0.65.
 
-## Future Direction
+### Future Direction
 There are quite a few directions this project can go from here, however, some of the biggest improvements this project can make are listed below:
 
 *   Forward Feed Neural Network: A neural network is definitely possible with this dataset, especially with a dataset this big. A neural net would help with the overall underfitting of the models in this project. However, we do have to watch out for the computing power and the time it takes to run a neural network. Otherwise, a neural network would be a great addition to this project.
