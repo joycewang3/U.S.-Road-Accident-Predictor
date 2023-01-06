@@ -1,4 +1,4 @@
-# U.S.-Road-Accident-Predictor
+# U.S. Road Accident Predictor
 ## Motivation
 
 The United States has one of the highest rates of road accidents in the world, with over 40,000 fatalities and millions of injuries each year. These accidents have a devastating impact on individuals, families, and communities, and they also have a significant economic cost, with billions of dollars in medical expenses and lost productivity.
