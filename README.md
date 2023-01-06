@@ -12,11 +12,11 @@ Second, the model could be used to predict the likelihood of accidents in differ
 Overall, the motivation for designing a road accidents model is to help prevent accidents, save lives, and reduce the economic cost of accidents in the United States. By providing insights into the causes of accidents and predicting their likelihood in different areas, such a model could play a valuable role in improving road safety and protecting the public.
 
 ## What we did
-Data processing
-Feature engineering
-Exploratory Data Analysis
-Geography-based analysis
-Machine learning modeling
+*   Data processing
+*   Feature engineering
+*   Exploratory Data Analysis
+*   Geography-based analysis
+*   Machine learning modeling
 
 ## Conclusion
 ### EDA
